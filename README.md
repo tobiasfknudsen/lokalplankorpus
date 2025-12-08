@@ -7,7 +7,9 @@ I forbindelse med projektet er der desuden udarbejdet interaktive word embedding
 ## Mappestruktur og indhold
 Repositoryet indeholder følgende mapper og filer:  
 
-Mappen `text_preprocessing/` indeholder scripts, der kan bruges til forbehandling af tekst, fx tokenisering, rensning og lemmatisering. Mappen `leksikalske_analyser/` indeholder scripts, der kan bruges til leksikalske analyser, fx Wordclouds og beregning af ordfrekvens. Mappen `semantiske_analyser/` indeholder scripts, der kan bruges til semantiske analyser, fx træning af Word2Vec-modeller, interaktive word embedding plots og opslag i modellerne.  
+Mappen `text_preprocessing/` indeholder scripts, der kan bruges til forbehandling af tekst, fx tokenisering, rensning og lemmatisering. 
+Mappen `leksikalske_analyser/` indeholder scripts, der kan bruges til leksikalske analyser, fx Wordclouds og beregning af ordfrekvens. 
+Mappen `semantiske_analyser/` indeholder scripts, der kan bruges til semantiske analyser, fx træning af Word2Vec-modeller, interaktive word embedding plots og opslag i modellerne.  
 
 Filerne `stopord.txt` indeholder listen over stopord anvendt i tekstforbehandlingen, `index.html` er startsiden til de interaktive visualiseringer via GitHub Pages, og `README.md` er denne fil, som introducerer repositoryet og forklarer indholdet.
 
