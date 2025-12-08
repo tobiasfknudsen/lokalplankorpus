@@ -6,4 +6,4 @@ Det indeholder tekstkorpusset, de trænede Word2Vec-modeller samt de interaktive
 
 
 ## Interaktive Word Embedding Plots
-Se de interaktive plots her: [GitHub Pages](https://tobiasfknudsen.github.io/lokalplankorpus/)
+Se de interaktive word embedding plots her: [GitHub Pages](https://tobiasfknudsen.github.io/lokalplankorpus/)
