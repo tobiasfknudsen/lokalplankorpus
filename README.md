@@ -7,11 +7,11 @@ I forbindelse med projektet er der desuden udarbejdet interaktive word embedding
 ## Mappestruktur og indhold
 Materialet indeholder følgende mapper og filer:  
 
-'text_preprocessing/' indeholder scripts, der kan bruges til forbehandling af lokalplankorpusset, herunder tokenisering, rensning og lemmatisering.  
-'leksikalske_analyser/' indeholder scripts, der kan bruges til leksikalske analyser af lokalplankorpusset, herunder Wordclouds og beregning af ordfrekvens.  
-'semantiske_analyser' indeholder scripts, der kan bruges til semantiske analyser af lokalplankorpusset, herunder træning af Word2Vec-modeller, interaktive word embedding plots og opslag i modellerne.  
+`text_preprocessing/` indeholder scripts, der kan bruges til forbehandling af lokalplankorpusset, herunder tokenisering, rensning og lemmatisering.  
+`leksikalske_analyser/` indeholder scripts, der kan bruges til leksikalske analyser af lokalplankorpusset, herunder Wordclouds og beregning af ordfrekvens.  
+`semantiske_analyser` indeholder scripts, der kan bruges til semantiske analyser af lokalplankorpusset, herunder træning af Word2Vec-modeller, interaktive word embedding plots og opslag i modellerne.  
 
-Filerne 'stopord.txt' indeholder listen over stopord anvendt i tekstforbehandlingen, 'index.html' er startsiden til de interaktive visualiseringer via GitHub Pages, og 'README.md' er denne fil, som introducerer materialet og forklarer indholdet.
+Filerne `stopord.txt` indeholder listen over stopord anvendt i tekstforbehandlingen, `index.html` er startsiden til de interaktive visualiseringer via GitHub Pages, og `README.md` er denne fil, som introducerer materialet og forklarer indholdet.
 
 ## Database
 Filen `lokalplaner.db.zip` indeholder lokalplankorpusset anvendt i projektet.  
