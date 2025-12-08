@@ -7,7 +7,7 @@ I forbindelse med projektet er der desuden udarbejdet interaktive word embedding
 ## Mappestruktur og indhold
 Materialet indeholder følgende mapper og filer:  
 
-[text_preprocessing/](text_preprocessing/) indeholder scripts, der kan bruges til forbehandling af lokalplankorpusset, herunder tokenisering, rensning og lemmatisering.  
+'[text_preprocessing/](text_preprocessing/)' indeholder scripts, der kan bruges til forbehandling af lokalplankorpusset, herunder tokenisering, rensning og lemmatisering.  
 [leksikalske_analyser/](leksikalske_analyser/) indeholder scripts, der kan bruges til leksikalske analyser af lokalplankorpusset, herunder Wordclouds og beregning af ordfrekvens.  
 [semantiske_analyser/](semantiske_analyser/) indeholder scripts, der kan bruges til semantiske analyser af lokalplankorpusset, herunder træning af Word2Vec-modeller, interaktive word embedding plots og opslag i modellerne.  
 
