@@ -15,10 +15,8 @@ Filerne `stopord.txt` indeholder listen over stopord anvendt i tekstforbehandlin
 
 ## Database
 Filen `lokalplankorpus.db.zip` indeholder lokalplankorpusset anvendt i projektet.  
-Efter udpakning findes databasen `lokalplaner.db` med tabellen `lokalplaner`. Tabellen indeholder flere kolonner, herunder følgende med tekst fra lokalplanerne:  
+Efter udpakning findes databasen `lokalplankorpus.db` med tabellen `lokalplaner`, som blandt andet indeholder følgende tekstfelter fra lokalplanerne:
 
 - `tekst` indeholder rå tekst direkte fra OCR  
 - `tekst_renset` indeholder renset tekst, for at fjerne støj  
 - `tekst_renset_lemma` indeholder tekst renset og efterfølgende lemmatiseret  
-
-
