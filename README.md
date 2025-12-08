@@ -5,7 +5,7 @@ Materialet indeholder et tekstkorpus bestående af alle lokalplaner pr. 3/10-202
 I forbindelse med projektet er der desuden udarbejdet interaktive word embedding plots, som kan ses [her](https://tobiasfknudsen.github.io/lokalplankorpus/).
 
 ## Mappestruktur og indhold
-Repositoryet indeholder følgende mapper og filer:  
+Materialet indeholder følgende mapper og filer:  
 
 Mappen `text_preprocessing/` indeholder scripts, der kan bruges til forbehandling af tekst, herunder tokenisering, rensning og lemmatisering. 
 
