@@ -14,7 +14,7 @@ Materialet indeholder følgende mapper og filer:
 Filerne `stopord.txt` indeholder listen over stopord anvendt i tekstforbehandlingen, `index.html` er startsiden til de interaktive visualiseringer via GitHub Pages, og `README.md` er denne fil, som introducerer materialet og forklarer indholdet.
 
 ## Database
-Filen `lokalplaner.db.zip` indeholder lokalplankorpusset anvendt i projektet.  
+Filen `lokalplankorpus.db.zip` indeholder lokalplankorpusset anvendt i projektet.  
 Efter udpakning findes databasen `lokalplaner.db` med tabellen `lokalplaner`. Tabellen indeholder flere kolonner, herunder følgende med tekst fra lokalplanerne:  
 
 - `tekst` indeholder rå tekst direkte fra OCR  
