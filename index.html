@@ -10,8 +10,11 @@
             background-color: #ffffff;
             color: #000000;
             margin: 0;
-            padding: 40px;
-            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: left;
         }
 
         h1 {
@@ -19,28 +22,41 @@
             margin-bottom: 10px;
         }
 
+        h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
         p.subtitle {
-            font-size: 18px;
+            font-size: 14px;
             color: #444444;
             margin-bottom: 40px;
+            max-width: none;
+            margin-left: 40px;  /* lidt længere inde */
+            margin-right: 0;
+            line-height: 1.5;
         }
 
         ul {
             list-style: none;
             padding: 0;
-            max-width: 600px;
-            margin: 0 auto;
+            max-width: 100%;
+            margin: 0 0 40px 40px;  /* lidt længere inde */
         }
 
         li {
-            margin: 18px 0;
+            margin: 15px 0;
         }
 
         a {
             font-size: 20px;
             text-decoration: none;
-            color: #1f77b4; /* Plotly blå */
-            font-weight: bold;
+            color: #cd3323;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-thickness: 1px;
         }
 
         a:hover {
@@ -48,24 +64,41 @@
         }
 
         .container {
-            max-width: 800px;
-            margin: auto;
+            max-width: 1800px;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 20px;
+            padding-right: 20px;
         }
-
     </style>
 </head>
 
 <body>
     <div class="container">
         <h1>Interaktive Word Embedding Plots</h1>
-        <p class="subtitle">Klik på en kategori for at åbne visualiseringen.</p>
+        <p class="subtitle">
+    Vælg et link nedenfor for at åbne en interaktiv word embedding visualisering.<br>
+    Visualiseringerne viser udvalgte seed-ord og de ord, der ofte optræder i samme sammenhæng, indenfor en kommunegruppe eller tidsperiode.<br>  
+    Seed-ordene er markeret med større punkter, mens beslægtede ord vises mindre.<br> 
+    Hold musen over et ord for at se, hvilket seed-ord det relaterer til,
+    hvilken kategori det tilhører, og hvor tæt det er på seed-ordet i det semantiske rum.<br>
+        </p>
 
+        <!-- Sektion 1: Kommunegrupper -->
+        <h2>Kommunegrupper</h2>
         <ul>
-            <li><a href="plots/word2vec_plot_landkommuner.html">Landkommuner</a></li>
-            <li><a href="plots/word2vec_plot_oplandskommuner.html">Oplandskommuner</a></li>
-            <li><a href="plots/word2vec_plot_provinsbykommuner.html">Provinsbykommuner</a></li>
-            <li><a href="plots/word2vec_plot_storbykommuner.html">Storbykommuner</a></li>
-            <li><a href="plots/word2vec_plot_hovedstadskommuner.html">Hovedstadskommuner</a></li>
+            <li><a href="semantiske_analyser/word2vec_embedding_plots/kommunegruppe/word2vec_plot_landkommuner.html">Landkommuner</a></li>
+            <li><a href="semantiske_analyser/word2vec_embedding_plots/kommunegruppe/word2vec_plot_oplandskommuner.html">Oplandskommuner</a></li>
+            <li><a href="semantiske_analyser/word2vec_embedding_plots/kommunegruppe/word2vec_plot_provinsbykommuner.html">Provinsbykommuner</a></li>
+            <li><a href="semantiske_analyser/word2vec_embedding_plots/kommunegruppe/word2vec_plot_storbykommuner.html">Storbykommuner</a></li>
+            <li><a href="semantiske_analyser/word2vec_embedding_plots/kommunegruppe/word2vec_plot_hovedstadskommuner.html">Hovedstadskommuner</a></li>
+        </ul>
+
+        <!-- Sektion 2: Tidsperioder -->
+        <h2>Tidsperioder</h2>
+        <ul>
+            <li><a href="semantiske_analyser/word2vec_embedding_plots/aarstal/word2vec_plot_1975_2000.html">1975 - 2000</a></li>
+            <li><a href="semantiske_analyser/word2vec_embedding_plots/aarstal/word2vec_plot_2000_2026.html">2000 - 2026</a></li>
         </ul>
     </div>
 </body>
