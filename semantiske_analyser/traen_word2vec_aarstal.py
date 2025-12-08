@@ -106,11 +106,12 @@ for start_year, end_year in YEAR_INTERVALS:
     )
     print("Word2Vec trænet!")
 
-    # Gem modellen med årinterval i filnavnet, altid små bogstaver
-    interval_str = f"{start_year}_{end_year}"
+# Gem modellen med årinterval i filnavnet, inklusivt sidste år
+    interval_str = f"{start_year}_{end_year-1}"  # fx 1975-1999 eller 2000-2025
     MODEL_PATH = os.path.join(BASE_DIR, f"word2vec_{interval_str}.model".lower())
     model.save(MODEL_PATH)
     print(f"✔ Modellen er gemt: {MODEL_PATH}")
+
 
 
 conn.close()

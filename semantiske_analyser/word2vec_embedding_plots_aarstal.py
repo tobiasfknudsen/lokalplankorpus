@@ -24,8 +24,8 @@ os.makedirs(BASE_DIR, exist_ok=True)
 # --------------------------------------------------------
 # 2) Vælg år / filtrering
 # --------------------------------------------------------
-FILTER_YEAR = (2000, 2026)  # Vælg år
-year_str = f"{FILTER_YEAR[0]}_{FILTER_YEAR[1]}"
+# Brug samme navn som modellen er gemt med
+year_str = "2000_2025"  # eller "2000_2025"
 MODEL_PATH = os.path.join(MODEL_DIR, f"word2vec_{year_str}.model".lower())
 
 # --------------------------------------------------------
@@ -119,8 +119,9 @@ color_map = {
     "Bevaring/Kultur": "#9467bd"
 }
 
-title_txt = f"Word-embeddings ud fra seed-ord - {FILTER_YEAR[0]} - {FILTER_YEAR[1]}"
-
+# Split year_str for at få start og slutår til titlen
+start_year, end_year = year_str.split("_")
+title_txt = f"Word-embeddings ud fra seed-ord - {start_year} - {end_year}"
 
 # --------------------------------------------------------
 # 8) Seed-ord størrelse og labels
@@ -209,7 +210,7 @@ fig.update_yaxes(visible=False)
 # --------------------------------------------------------
 # 10) Gem HTML
 # --------------------------------------------------------
-plot_name = f"word2vec_plot_{year_str.lower()}"  # fx word2vec_plot_2000_2026
+plot_name = f"word2vec_plot_{year_str.lower()}"  # fx word2vec_plot_2000_2025
 VIS_PATH = os.path.join(BASE_DIR, f"{plot_name}.html")
 fig.write_html(VIS_PATH, include_plotlyjs="cdn")
 print(f"✔ Gemte visualisering som HTML: {VIS_PATH}")
