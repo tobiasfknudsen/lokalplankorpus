@@ -1,8 +1,7 @@
 # Lokalplanens Anatomi Anno 2025
-Dette materiale er udarbejdet som en del af projektet '*Lokalplanens Anatomi Anno 2025*' på 3. semester af Surveying, Planning, and Land Management ved Aalborg Universitet af August Sawman Nygaard og Tobias Faurhøj Knudsen.  
+Dette materiale er udarbejdet som en del af projektet '*Lokalplanens Anatomi Anno 2025*' på 3. semester af Surveying, Planning, and Land Management ved Aalborg Universitet af August Sawman Nygaard og Tobias Faurhøj Knudsen. Projektrapporten kan downloades [her](https://github.com/tobiasfknudsen/lokalplankorpus/raw/main/Lokalplanens%20Anatomi%20Anno%202025.pdf).
+  
 Materialet indeholder et tekstkorpus bestående af alle lokalplaner pr. 3/10-2025 samt scripts, der kan bruges til analyser af tekstkorpusset.
-
-Projektrapporten kan downloades [her](https://github.com/tobiasfknudsen/lokalplankorpus/raw/main/Lokalplanens%20Anatomi%20Anno%202025.pdf).
 
 I forbindelse med projektet er der desuden udarbejdet interaktive word embedding plots, som kan ses [her](https://tobiasfknudsen.github.io/lokalplankorpus/).
 
